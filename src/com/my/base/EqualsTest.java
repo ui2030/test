@@ -3,7 +3,10 @@ package com.my.base;
 public class EqualsTest {
     public static void main(String[] args) {
         test1();
+        System.out.println();
         test2();
+        System.out.println();
+        test3();
     }
 
     static void test1() {
@@ -19,6 +22,12 @@ public class EqualsTest {
         String str2 = "홍길동";
         System.out.println(str.equals(str2));
         System.out.println(str == str2);
+    }
+    static void test3() {
+        String str = new String("홍길동");
+        String str2 = new String("홍길동");
 
+        System.out.println(str.equals(str2));      // true. 값 비교
+        System.out.println(str == str2);           // false. 주소 비교
     }
 }

@@ -1,5 +1,7 @@
 package com.my.base;
 
+import java.sql.SQLOutput;
+
 public class TypeTest5 {
     public static void main(String[] args) {
         String str = "let's learn Java";    // heap 영역의 string constrant pool
@@ -13,4 +15,5 @@ public class TypeTest5 {
         System.out.println(System.identityHashCode(str3));
         System.out.println(System.identityHashCode(str4));
     }
+
 }

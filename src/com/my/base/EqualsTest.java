@@ -2,14 +2,15 @@ package com.my.base;
 
 public class EqualsTest {
     public static void main(String[] args) {
-        test1();
+        test1(1);
         System.out.println();
-        test2();
+        test2();                //이건 함수 호출
         System.out.println();
         test3();
     }
 
-    static void test1() {
+    static void test1(int i) { //void란 입출력이 비어있다는 뜻인데, 해석하면
+        // test1이 입력, 출력이 비어있다는 뜻
         Object obj1 = new Object();
         Object obj2 = obj1;         // 객체 복사
         boolean result = obj1.equals(obj2);
@@ -20,7 +21,7 @@ public class EqualsTest {
     static void test2() {
         String str = "홍길동";
         String str2 = "홍길동";
-        System.out.println(str.equals(str2));
+        System.out.println(str.equals(str2)); //괄호(())가 있으면 메서드(함수) 호출이다
         System.out.println(str == str2);
     }
     static void test3() {

@@ -7,13 +7,13 @@ public class TypeTest4 {
             int Loper = 10;
             int Roper = 0;
             int res = Loper / Roper;
-            System.out.println(res);
+           //System.out.println(res);
 
         } else {
             int Loper =  10;
             double Roper = 0.0;
             double res = Loper / Roper;
-            System.out.println(res);
+           //System.out.println(res);
         }
     }
 }

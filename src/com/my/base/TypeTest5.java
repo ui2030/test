@@ -6,7 +6,7 @@ public class TypeTest5 {
         String str2 = "let's learn Java";
 
 
-        System.out.println(System.identityHashCode(str));
-        System.out.println(System.identityHashCode(str2));
+        //System.out.println(System.identityHashCode(str));
+        //System.out.println(System.identityHashCode(str2));
     }
 }

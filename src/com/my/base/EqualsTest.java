@@ -17,6 +17,7 @@ public class EqualsTest {
         System.out.println(result);
         System.out.println(obj1.hashCode());
         System.out.println(obj2.hashCode());
+        System.out.println();
     }
     static void test2() {
         String str = "홍길동";
